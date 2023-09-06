@@ -1,3 +1,5 @@
+# Too lazy to change this
+
 # Astro Starter Kit: Minimal
 
 ```

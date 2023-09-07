@@ -6,8 +6,9 @@ author: 'Arman'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
-tags: ["astro", "blogging"]
+tags: ['astro', 'blogging']
 ---
+
 # This is the first blog post created.
 
 Published on: 2023-09-07

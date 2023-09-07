@@ -23,8 +23,6 @@ const skills = [
 ]
 const happy = false
 const finished = false
-
-const skillColor = 'navy'
 ---
 
 <html lang="en">
@@ -35,13 +33,12 @@ const skillColor = 'navy'
         <meta name="generator" content={Astro.generator} />
         <ViewTransitions />
         <title>{pageTitle}</title>
-        <style define:vars={{ skillColor }}>
+        <style>
             h1 {
                 color: purple;
-                font-size: 4rem;
             }
             .skill {
-                color: var(--skillColor);
+                color: navy;
                 font-weight: bold;
             }
             .hobby {
@@ -51,7 +48,7 @@ const skillColor = 'navy'
     </head>
     <body>
         <Header />
-        </div>
+
         <h1>{pageTitle}</h1>
         <h2>I still don't like web tough.</h2>
         {
@@ -81,5 +78,8 @@ const skillColor = 'navy'
             {skills.map((skill) => <li class="skill">{skill}</li>)}
         </ul>
         <Footer />
+        <script>
+            import '../scripts/menu.js'
+        </script>
     </body>
 </html>
